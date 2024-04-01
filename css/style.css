@@ -3,10 +3,15 @@
     padding:0;
   }
   
+body{
+  background-color: #fae7ef;
+}
+
   header{
-    border-bottom: 1px solid #1b85dc;
-    height: 10vh;
+    border-bottom: 1px solid #F27EB3;
+    height: 12vh;
     display:flex;
+    margin-top: 1vw;
   }
   
   #logo{
@@ -15,8 +20,17 @@
   }
   
   #logo img{
-    height: 8vh;
+    height: 13vh;
   }
+
+  h3{
+  color: #F27EB3;
+  font-size: 2vw;
+  margin-left: 20% ;
+  font-family: fantasy;
+  display: inline;
+  }
+
   #display{
     width: 50vw;
   }
@@ -41,7 +55,7 @@
   }
   
   #modal-view{
-    border:1px solid #1b85dc;
+    border:1px solid #F27EB3;
     position: absolute;
     display:none;
     width: 90vw;
@@ -54,7 +68,7 @@
   }
   
   #modal{
-    border:1px solid #1b85dc;
+    border:1px solid #F27EB3;
     position: absolute;
     padding:2vh 2vw;
     display:none;
@@ -65,3 +79,20 @@
     display:flex;
     gap:10px;
   }  
+
+  #iconsContainer {
+    color: #F27EB3;
+    font-size: 24px;
+  }
+
+  #btn-close-modal{
+    color: #F27EB3;
+  }
+
+  #btn-save-note{
+    color: #F27EB3;
+  }
+
+  #add-note{
+    color: #F27EB3;
+  }
