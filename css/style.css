@@ -7,29 +7,27 @@ body{
   background-color: #fae7ef;
 }
 
-  header{
-    border-bottom: 1px solid #F27EB3;
-    height: 12vh;
-    display:flex;
-    margin-top: 1vw;
-  }
-  
-  #logo{
-    width: 30vw;
-    height: 10vh;
-  }
-  
-  #logo img{
-    height: 13vh;
-  }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0;
+}
 
-  h3{
+#logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+h3 {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
   color: #F27EB3;
-  font-size: 2vw;
-  margin-left: 20% ;
-  font-family: fantasy;
-  display: inline;
-  }
+}
 
   #display{
     width: 50vw;
@@ -79,11 +77,6 @@ body{
     display:flex;
     gap:10px;
   }  
-
-  #iconsContainer {
-    color: #F27EB3;
-    font-size: 24px;
-  }
 
   #btn-close-modal{
     color: #F27EB3;
